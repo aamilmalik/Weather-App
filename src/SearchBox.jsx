@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 
 
 function SearchBox({updateInfo}) {
-  const api_url = "http://api.openweathermap.org/data/2.5/weather";
+  const api_url = "https://api.openweathermap.org/data/2.5/weather";
   const api_key = "7441c30807175a9f7126624325975948";
   const [city, setCity] = useState("");
   const [err,setErr] = useState(false);
